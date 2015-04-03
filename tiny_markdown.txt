@@ -1,0 +1,6 @@
+=== Tiny Markdown ===
+Contributors: h.matsuo
+
+Tiny markdown parser (based on parsedown)
+
+parsedown: <http://parsedown.org/>
