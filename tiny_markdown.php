@@ -37,7 +37,6 @@ class TinyMarkdown
         add_action('admin_print_styles', function () {
                 echo <<< _STYLE_
 <style>
-    #content-tmce { display:none; }
     #ed_toolbar input { visibility: hidden; }
 </style>
 _STYLE_;
