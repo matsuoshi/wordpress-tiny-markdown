@@ -40,7 +40,7 @@ class TinyMarkdown
         $content = '<div class="markdown">' . $this->pd->text($content) . '</div>';
 
         // url link
-        $content = preg_replace('#(?<!href="|">)(https?://[^\s<]+)\b#i', '<a href="$1">$1</a>', $content);
+        $content = preg_replace('#(?<!href="|src="|">)(https?://[^\s<]+\b/*)#i', '<a href="$1">$1</a>', $content);
 
         return $content;
     }
